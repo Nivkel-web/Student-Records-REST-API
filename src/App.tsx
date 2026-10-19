@@ -9,11 +9,9 @@ import { Playground } from './components/Playground';
 import { ReadmeViewer } from './components/ReadmeViewer';
 import { ScreenshotsStudio } from './components/ScreenshotsStudio';
 import { CodeViewer } from './components/CodeViewer';
-import { ExportModal } from './components/ExportModal';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState<ActiveTab>('playground');
-  const [isExportModalOpen, setIsExportModalOpen] = useState<boolean>(false);
 
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col font-sans selection:bg-emerald-500 selection:text-white">
@@ -21,7 +19,6 @@ export default function App() {
       <Navbar
         activeTab={activeTab}
         setActiveTab={setActiveTab}
-        onOpenExportModal={() => setIsExportModalOpen(true)}
       />
 
       {/* Main Viewport Content */}
@@ -33,13 +30,6 @@ export default function App() {
         )}
         {activeTab === 'codebase' && <CodeViewer />}
       </main>
-
-      {/* Export Modal */}
-      <ExportModal
-        isOpen={isExportModalOpen}
-        onClose={() => setIsExportModalOpen(false)}
-        onGoToScreenshots={() => setActiveTab('screenshots')}
-      />
 
       {/* Clean Editorial Footer */}
       <footer className="border-t border-slate-900 bg-slate-950 py-8 px-4 sm:px-6 lg:px-8 mt-12">

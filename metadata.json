@@ -2,6 +2,7 @@
   "name": "Student Records REST API",
   "description": "Production-grade Spring Boot RESTful microservice with Hibernate Validator, HTTP status responses, JPA repository, GitHub README, and screenshot studio.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }
-
