@@ -328,7 +328,7 @@ export const ScreenshotsStudio: React.FC = () => {
                 {activeScreenshot === 'swagger-ui' && 'http://localhost:8080/swagger-ui.html — Swagger UI'}
                 {activeScreenshot === 'validation-error-400' && 'bash — curl -i -X POST /api/v1/students — 80x24'}
                 {activeScreenshot === 'database-records' && 'H2 Database Console — jdbc:h2:mem:studentdb'}
-                {activeScreenshot === 'repository-banner' && 'github.com/university/student-records-api'}
+                {activeScreenshot === 'repository-banner' && 'github.com/Nivkel-web/Student-Records-REST-API'}
                 {activeScreenshot === 'postman-client' && 'REST Client — POST /api/v1/students'}
               </div>
 

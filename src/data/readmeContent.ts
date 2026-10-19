@@ -5,7 +5,7 @@ export const GITHUB_README_MARKDOWN = `# Student Records REST API
 [![Hibernate](https://img.shields.io/badge/Hibernate_Validator-8.0-59666C?style=for-the-badge&logo=hibernate&logoColor=white)](https://hibernate.org/validator/)
 [![JPA](https://img.shields.io/badge/Spring_Data-JPA-blue?style=for-the-badge&logo=spring&logoColor=white)](https://spring.io/projects/spring-data-jpa)
 [![License](https://img.shields.io/badge/License-MIT-black?style=for-the-badge)](LICENSE)
-[![Build](https://img.shields.io/badge/Build-Passing-brightgreen?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/)
+[![Build](https://img.shields.io/badge/Build-Passing-brightgreen?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/Nivkel-web/Student-Records-REST-API)
 
 A production-ready **Spring Boot RESTful microservice** designed for managing university student records. It showcases strict input validation using **Hibernate Validator (JSR-380)**, canonical **HTTP status responses** (200, 201 with \`Location\` header, 204, 400, 404, 409), robust **Spring Data JPA** persistence with pagination and sorting, and centralized RFC-7807 problem detail exception handling.
 
@@ -185,8 +185,8 @@ Content-Type: application/json
 
 ### 1. Clone Repository
 \`\`\`bash
-git clone https://github.com/your-username/student-records-api.git
-cd student-records-api
+git clone https://github.com/Nivkel-web/Student-Records-REST-API.git
+cd Student-Records-REST-API
 \`\`\`
 
 ### 2. Build and Run

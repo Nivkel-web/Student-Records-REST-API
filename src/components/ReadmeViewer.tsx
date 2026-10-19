@@ -338,8 +338,8 @@ export const ReadmeViewer: React.FC<ReadmeViewerProps> = ({ onGoToScreenshots })
             <h3 className="text-xl font-bold text-white">How to Run Locally</h3>
             <pre className="p-4 rounded-lg bg-slate-950 border border-slate-800 text-xs font-mono text-emerald-300 leading-relaxed overflow-x-auto">
 {`# 1. Clone repository
-git clone https://github.com/your-username/student-records-api.git
-cd student-records-api
+git clone https://github.com/Nivkel-web/Student-Records-REST-API.git
+cd Student-Records-REST-API
 
 # 2. Build and launch Spring Boot microservice
 ./mvnw clean spring-boot:run
